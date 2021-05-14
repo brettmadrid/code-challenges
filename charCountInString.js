@@ -7,7 +7,7 @@
 const charCount = str => {
   // make object to return
   let result = {};
-  let regexp = /[a-z0-9]/;
+  let regexp = /[a-z0-9]/; // regex for alphanumeric characters
   // loop over string, for each character
   for (let i = 0; i < str.length; i++) {
     let char = str[i].toLowerCase();
